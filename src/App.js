@@ -1,3 +1,4 @@
+import Profiles from './Profiles';
 
 function App() {
   return (
@@ -5,6 +6,8 @@ function App() {
       <header className="App-header">
        MIYE
       </header>
+
+      <Profiles/>
     </div>
   );
 }
